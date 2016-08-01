@@ -2,8 +2,8 @@ require "formula"
 
 class Librets < Formula
   homepage "http://code.crt.realtors.org/projects/librets"
-  url "http://www.crt.realtors.org/projects/rets/librets/files/librets-1.5.3.tar.gz"
-  sha1 "2de4d9e9cb26533eb0a9a090b3354a70ed3c41ec"
+  url "https://github.com/NationalAssociationOfRealtors/libRETS/archive/1.5.3.tar.gz"
+  sha256 "30216f2640c3fa05c362caad823b8abf839e8f880b18dc10bf517fc791f03ab7"
 
   depends_on "homebrew/versions/boost149"
 
