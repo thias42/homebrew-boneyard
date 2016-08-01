@@ -2,8 +2,8 @@ require "formula"
 
 class Attica < Formula
   homepage "http://www.kde.org/"
-  url "ftp://ftp.kde.org/pub/kde/stable/attica/attica-0.2.0.tar.bz2"
-  sha1 "724c6e9aab662280ec5b6570b23cf1cfc6c28cc7"
+  url "https://mirror.csclub.uwaterloo.ca/kde/stable/attica/attica-0.2.0.tar.bz2"
+  sha256 "2af9f17c7cefa806e606dfeb3b4d5d9bb74d6f486c9700554121b7e74252543c"
 
   depends_on "cmake" => :build
 
