@@ -1,9 +1,9 @@
 require "formula"
 
 class OMake < Formula
-  url "http://omake.metaprl.org/downloads/omake-0.9.8.6-0.rc1.tar.gz"
+  url "http://pkgs.fedoraproject.org/repo/pkgs/ocaml-omake/omake-0.9.8.6-0.rc1.tar.gz/fe39a476ef4e33b7ba2ca77a6bcaded2/omake-0.9.8.6-0.rc1.tar.gz"
   homepage "http://omake.metaprl.org/"
-  sha1 "f714fa992bf391b8bac49a488bc654128962d1cc"
+  sha256 "23c498f071723621dd5e1e29c1abefd6937c73c67bb85d223fd514b9ae005ae9"
   version "0.9.8.6"
 
   depends_on "readline"
