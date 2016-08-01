@@ -9,8 +9,6 @@ class Flusspferd < Formula
   depends_on "boost"
   depends_on "spidermonkey"
 
-  fails_with_llvm
-
   def install
     system "cmake -H. -Bbuild #{std_cmake_parameters}"
     system "make", "install"
