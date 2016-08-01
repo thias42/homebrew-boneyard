@@ -9,7 +9,7 @@ class Kismet < Formula
   # Strip -rdynamic, per MacPorts
   patch :p0 do
     url "https://trac.macports.org/export/100624/trunk/dports/net/kismet/files/patch-configure.diff"
-    sha1 "a866ac5616cfd929ff90dd1f888c9bf3d83a520c"
+    sha256 "20894500bc47c1ff55baf575a4c767a1f18b055b772900a106c3781d25f4c471"
   end
 
   def install
