@@ -2,8 +2,8 @@ require "formula"
 
 class Cdf < Formula
   homepage "http://bmp-plugins.berlios.de/misc/cdf/cdf.html"
-  url "http://download.berlios.de/bmp-plugins/cdf-0.2.tar.gz"
-  sha1 "5f5d0c1f1003d9ad3c3cbbda1d8159e9fe10768a"
+  url "https://downloads.sourceforge.net/project/bmp-plugins.berlios/cdf-0.2.tar.gz"
+  sha256 "3659ed779ec335c572f9ccec437469fc9c0e5c193f6b58f9e935bf337a080874"
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
