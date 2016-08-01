@@ -3,11 +3,10 @@ class Pagan < Formula
   # doi "10.1093/bioinformatics/bts198"
   # tag "bioinformatics"
 
-  url "http://wasabiapp.org/download/pagan/pagan.src.20140814.tgz"
-  version "0.56"
-  sha1 "56e90fffcc715f1230d56babdaaaab0a2e9c9073"
-
-  head "https://code.google.com/p/pagan-msa/", :using => :git
+  url "http://wasabiapp.org/download/pagan/pagan.src.20150723.tgz"
+  version "0.61"
+  sha256 "68de97558f3bb4a932b70ba097f851ce1680a59902437ac49d73d64af30fc83f"
+  head "https://github.com/ariloytynoja/pagan-msa.git"
 
   depends_on "boost"
   depends_on "exonerate" => :recommended
