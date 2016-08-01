@@ -2,9 +2,9 @@ require "formula"
 
 class ElectricFence < Formula
   homepage "http://perens.com/FreeSoftware/ElectricFence/"
-  url "http://perens.com/FreeSoftware/ElectricFence/electric-fence_2.1.13-0.1.tar.gz"
+  url "http://old-releases.ubuntu.com/ubuntu/pool/niverse/e/electric-fence/electric-fence_2.1.13-0.1.tar.gz"
   version "2.1.13-0.1"
-  sha1 "e6765bcb1543272040b806eea706fc7ae9b60524"
+  sha256 "60002eaae3d94fa68e9a42778a264e945b343328d22beb105c6ef726377492d7"
 
   # Patch based on this MacPorts port: https://trac.macports.org/ticket/23836
   # Discussion on how to port it to OS X: http://lists.apple.com/archives/xcode-users/2005/Oct/msg00791.html
