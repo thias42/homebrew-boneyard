@@ -2,9 +2,9 @@ require "formula"
 
 class Dbslayer < Formula
   homepage "http://code.nytimes.com/projects/dbslayer/wiki"
-  url "http://code.nytimes.com/downloads/dbslayer-beta-12.tgz"
+  url "https://distfiles.macports.org/dbslayer/dbsayer-beta-12.tgz"
   version "0.12.b"
-  sha1 "fbf1c5563a6ee45783e31f6b49612e64fc141186"
+  sha256 "66a0cca0eb6f47a6735cfe55413a86ea67ebaf24e0b40be740840a8f0464c6b9"
 
   depends_on :mysql
 
