@@ -2,8 +2,8 @@ require "formula"
 
 class Kdelibs < Formula
   homepage "http://www.kde.org/"
-  url "http://download.kde.org/stable/4.9.5/src/kdelibs-4.9.5.tar.xz"
-  sha1 "899a58c5cf2115a1a18fb1690c99b2b3815975c6"
+  url "http://pkgs.fedoraproject.org/repo/pkgs/kdelibs/kdelibs-4.9.5.tar.xz/2155d7ae075a1c7e9c6398b381c67177/kdelibs-4.9.5.tar.xz"
+  sha256 "fc977af4efe00e6cab1051dc7b2424b1a8aa434536c5a5f8f1f54417519b3427"
 
   depends_on "cmake" => :build
   depends_on "automoc4" => :build
