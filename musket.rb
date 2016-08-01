@@ -3,8 +3,8 @@ class Musket < Formula
   # doi "10.1093/bioinformatics/bts690"
   # tag "bioinformatics"
 
-  url "https://downloads.sourceforge.net/project/musket/musket-1.1.tar.bz"
-  sha1 "48b0c6eba3c00be0dd4eab9aef7ed199e3e97857"
+  url "https://downloads.sourceforge.net/project/musket/musket-1.1.tar.gz"
+  sha256 "306772803ef72e6a7dfdfdf382d0fafa77de0eaa226500b0525940f6b5497aba"
   version "1.1"
 
   def install
