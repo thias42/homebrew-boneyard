@@ -3,8 +3,8 @@ class Htqc < Formula
   # doi "10.1186/1471-2105-14-33"
   # tag "bioinformatics"
 
-  url "https://downloads.sourceforge.net/project/htqc/htqc-0.90.2-Source.tar.gz"
-  sha1 "c4204ed1b85d78daa3c90968b99eea113308ed72"
+  url "https://downloads.sourceforge.net/project/htqc/series%201/htqc-0.90.8-Source.tar.gz"
+  sha256 "a960805f4312577ae0311dd2734b1362af6ef24128fcaede28392c7f80f9a74e"
 
   depends_on "cmake" => :build
   depends_on "boost"
