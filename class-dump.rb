@@ -14,12 +14,6 @@ class ClassDump < Formula
     depends_on MaximumMacOSRequirement => :mavericks
   end
 
-  bottle do
-    cellar :any_skip_relocation
-    revision 2
-    sha256 "1122ce44de336a9d1973fb3f41c860504724711241681e88ab201baf0be8378b" => :mavericks
-  end
-
   head do
     url "https://github.com/nygard/class-dump.git"
 
