@@ -5,10 +5,6 @@ class AptCacherNg < Formula
   mirror "https://mirrorservice.org/sites/ftp.debian.org/debian/pool/main/a/apt-cacher-ng/apt-cacher-ng_0.8.8.orig.tar.xz"
   sha256 "7847f970ed9b3b3b65fe9c302107ede9cd0c5de57e3ddb497a409e8720f1fe58"
 
-  bottle do
-    sha256 "a1df0128f290116cb8e5e9d9bcf899dda1bba6ba4bdc6a4827e0839bd2631854" => :mavericks
-  end
-
   depends_on "pkg-config" => :build
   depends_on "cmake" => :build
   depends_on :osxfuse => :build
