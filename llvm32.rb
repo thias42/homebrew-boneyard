@@ -14,7 +14,7 @@ class Llvm32 < Formula
   depends_on :python => :recommended
   depends_on "homebrew/versions/gmp4"
   depends_on "homebrew/versions/isl011"
-  depends_on "homebrew/versions/cloog018"
+  depends_on "cloog"
   depends_on MaximumMacOSRequirement => :mountain_lion
 
   resource "clang" do
