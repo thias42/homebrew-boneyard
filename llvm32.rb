@@ -12,7 +12,7 @@ class Llvm32 < Formula
   option "disable-assertions", "Speeds up LLVM, but provides less debug information"
 
   depends_on :python => :recommended
-  depends_on "homebrew/versions/gmp4"
+  depends_on "homebrew/versions/gmp@4"
   depends_on "homebrew/versions/isl011"
   depends_on "cloog"
   depends_on MaximumMacOSRequirement => :mountain_lion
