@@ -1,4 +1,4 @@
-# Homebrew Boneyard
+# Homebrew/boneyard
 This repository contains formulae that were removed from other repositories.
 Common reasons for retiring formulae to the boneyard include lack of upstream
 maintenance or problems integrating with Homebrew's packaging requirements.
@@ -23,4 +23,4 @@ brew install https://raw.githubusercontent.com/Homebrew/homebrew-boneyard/master
 ```
 
 ## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://github.com/Homebrew/brew/tree/master/share/doc/homebrew#readme).
+`brew help`, `man brew` or check [Homebrew's documentation](http://docs.brew.sh).
