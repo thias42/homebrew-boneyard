@@ -10,7 +10,7 @@ class QtMobility < Formula
                           "-prefix", prefix,
                           "-qmake-exec", "#{HOMEBREW_PREFIX}/bin/qmake"
     system "make"
-    ENV.j1
+    ENV.deparallelize
     system "make", "install"
 
     # Move all .apps out of the "bin/" and into the prefix (like qt formula)
