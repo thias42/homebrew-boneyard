@@ -19,7 +19,7 @@ class Aplus < Formula
 
     system "./configure", "--disable-dependency-tracking", "--prefix=#{prefix}"
     system "make"
-    ENV.j1 # make install breaks with -j option
+    ENV.deparallelize # make install breaks with -j option
     system "make", "install"
   end
 
