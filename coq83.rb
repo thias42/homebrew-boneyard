@@ -31,7 +31,7 @@ class Coq83 < Formula
                           "-coqide", "no",
                           "-with-doc", "no"
     # Otherwise "mkdir bin" can be attempted by more than one job
-    ENV.j1
+    ENV.deparallelize
     system "make", "world"
     system "make", "install"
   end
