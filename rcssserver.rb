@@ -40,7 +40,7 @@ class Rcssserver < Formula
   depends_on "qt"
 
   def install
-    ENV.j1
+    ENV.deparallelize
 
     if build.head?
       # These inreplaces are artifacts of the upstream packaging process:
