@@ -19,7 +19,7 @@ class Ngrok < Formula
   end
 
   def install
-    ENV.j1
+    ENV.deparallelize
     system "make", "release-client"
     bin.install "bin/ngrok"
   end
