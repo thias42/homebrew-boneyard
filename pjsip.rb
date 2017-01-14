@@ -12,7 +12,7 @@ class Pjsip < Formula
   patch :DATA
 
   def install
-    ENV.j1
+    ENV.deparallelize
     system "./configure", "--prefix=#{prefix}"
     Pathname("pjlib/include/pj/config_site.h").write <<-EOS.undent
       #define PJ_CONFIG_MAXIMUM_SPEED
