@@ -7,7 +7,7 @@ class Judy < Formula
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
-    ENV.j1 # Doesn't compile on parallel build
+    ENV.deparallelize # Doesn't compile on parallel build
     system "make", "install"
   end
 end
