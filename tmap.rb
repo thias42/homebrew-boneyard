@@ -40,7 +40,7 @@ class Tmap < Formula
     args << "--enable-adjacent-indels" if build.with? "indels"
 
     system "./configure", *args
-    ENV.j1
+    ENV.deparallelize
     system "make"
     system "make", "install"
   end
